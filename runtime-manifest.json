@@ -1,5 +1,5 @@
 {
-  "runtimeVersion": "runtime-v1.0.0",
+  "runtimeVersion": "runtime-v1.1.0",
   "updatedAt": "2026-09-30",
   "components": {
     "python-env": {
@@ -139,6 +139,19 @@
           "urls": [
             "https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/winldd/1007/winldd-win64.zip",
             "https://cdn.playwright.dev/builds/winldd/1007/winldd-win64.zip"
+          ]
+        }
+      }
+    },
+    "mingit": {
+      "targets": {
+        "windows-x86_64": {
+          "file": "MinGit-2.55.0-64-bit.zip",
+          "size": 38830800,
+          "sha256": "31497e7968196332263459ee319d2524e3ebc5786ab895e2abad34ffdd4f4ebf",
+          "urls": [
+            "https://gitcode.com/m0_59492087/OmniBuddy-Plugins/releases/download/runtime-v1.1.0/MinGit-2.55.0-64-bit.zip",
+            "https://github.com/rzechen/OmniBuddy-Plugins/releases/download/runtime-v1.1.0/MinGit-2.55.0-64-bit.zip"
           ]
         }
       }

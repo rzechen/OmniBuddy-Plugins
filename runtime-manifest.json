@@ -1,0 +1,147 @@
+{
+  "runtimeVersion": "runtime-v1.0.0",
+  "updatedAt": "2026-09-30",
+  "components": {
+    "python-env": {
+      "targets": {
+        "darwin-arm64": {
+          "file": "python-env-osx-arm64.zip",
+          "size": 180490076,
+          "sha256": "7f28db5bb403139ecd706766756f98b1210996801f0d903140a3f1bfabc454db",
+          "urls": [
+            "https://gitcode.com/m0_59492087/OmniBuddy-Plugins/releases/download/runtime-v1.0.0/python-env-osx-arm64.zip",
+            "https://github.com/rzechen/OmniBuddy-Plugins/releases/download/runtime-v1.0.0/python-env-osx-arm64.zip"
+          ]
+        },
+        "windows-x86_64": {
+          "file": "python-env-win-64.zip",
+          "size": 239443988,
+          "sha256": "192ad73131851aac37ae0413fd6896168b9d4b9b639911340f7c55f9119f3ca9",
+          "urls": [
+            "https://gitcode.com/m0_59492087/OmniBuddy-Plugins/releases/download/runtime-v1.0.0/python-env-win-64.zip",
+            "https://github.com/rzechen/OmniBuddy-Plugins/releases/download/runtime-v1.0.0/python-env-win-64.zip"
+          ]
+        }
+      }
+    },
+    "node-tools": {
+      "targets": {
+        "darwin-arm64": {
+          "file": "node-tools-darwin-arm64.zip",
+          "size": 44420531,
+          "sha256": "0b12b111d20c24954d866e94c1a0a34d39e035a15569d04d458d7004e7f61227",
+          "urls": [
+            "https://gitcode.com/m0_59492087/OmniBuddy-Plugins/releases/download/runtime-v1.0.0/node-tools-darwin-arm64.zip",
+            "https://github.com/rzechen/OmniBuddy-Plugins/releases/download/runtime-v1.0.0/node-tools-darwin-arm64.zip"
+          ]
+        },
+        "windows-x86_64": {
+          "file": "node-tools-win-x64.zip",
+          "size": 50146805,
+          "sha256": "dad9a10df261c2d8f50d6b0139abbd8b16f6ff10321a80b1b49ee9a7fe941aea",
+          "urls": [
+            "https://gitcode.com/m0_59492087/OmniBuddy-Plugins/releases/download/runtime-v1.0.0/node-tools-win-x64.zip",
+            "https://github.com/rzechen/OmniBuddy-Plugins/releases/download/runtime-v1.0.0/node-tools-win-x64.zip"
+          ]
+        }
+      }
+    },
+    "node": {
+      "targets": {
+        "darwin-arm64": {
+          "file": "node-v22.23.1-darwin-arm64.tar.gz",
+          "size": 50067502,
+          "sha256": "ef28d8fab2c0e4314522d4bb1b7173270aa3937e93b92cb7de79c112ac1fa953",
+          "urls": [
+            "https://registry.npmmirror.com/-/binary/node/v22.23.1/node-v22.23.1-darwin-arm64.tar.gz",
+            "https://nodejs.org/dist/v22.23.1/node-v22.23.1-darwin-arm64.tar.gz"
+          ]
+        },
+        "windows-x86_64": {
+          "file": "node-v22.23.1-win-x64.zip",
+          "size": 35682836,
+          "sha256": "7df0bc9375723f4a86b3aa1b7cc73342423d9677a8df4538aca31a049e309c29",
+          "urls": [
+            "https://registry.npmmirror.com/-/binary/node/v22.23.1/node-v22.23.1-win-x64.zip",
+            "https://nodejs.org/dist/v22.23.1/node-v22.23.1-win-x64.zip"
+          ]
+        }
+      }
+    },
+    "chrome-headless-shell": {
+      "targets": {
+        "darwin-arm64": {
+          "file": "chrome-headless-shell-mac-arm64.zip",
+          "size": 99415613,
+          "sha256": "9d4790010e56a034593b77c9e5994353885bc2dff688fe88ca71aced9b288bd7",
+          "urls": [
+            "https://cdn.playwright.dev/builds/cft/154.0.8037.0/mac-arm64/chrome-headless-shell-mac-arm64.zip"
+          ]
+        },
+        "windows-x86_64": {
+          "file": "chrome-headless-shell-win64.zip",
+          "size": 120880135,
+          "sha256": "064fc448c9f1d89649fe581929561af88dc7b0af158ef8d452e9cd7d9b5b18a8",
+          "urls": [
+            "https://cdn.playwright.dev/builds/cft/154.0.8037.0/win64/chrome-headless-shell-win64.zip"
+          ]
+        }
+      }
+    },
+    "ffmpeg": {
+      "targets": {
+        "darwin-arm64": {
+          "file": "ffmpeg-mac-arm64.zip",
+          "size": 1097141,
+          "sha256": "7d77eb0d44b59acc4065faa2476c0df1a242cc904c346f820626818c953c5277",
+          "urls": [
+            "https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-mac-arm64.zip",
+            "https://cdn.playwright.dev/builds/ffmpeg/1011/ffmpeg-mac-arm64.zip"
+          ]
+        },
+        "windows-x86_64": {
+          "file": "ffmpeg-win64.zip",
+          "size": 1411741,
+          "sha256": "8d08827c019ad36e7b9d49d3648447d884534cb2acf200e71c715f6dd834cc50",
+          "urls": [
+            "https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-win64.zip",
+            "https://cdn.playwright.dev/builds/ffmpeg/1011/ffmpeg-win64.zip"
+          ]
+        }
+      }
+    },
+    "pandoc": {
+      "targets": {
+        "darwin-arm64": {
+          "file": "pandoc-3.6.3-arm64-macOS.zip",
+          "size": 36440524,
+          "sha256": "1d76cd76b703ff758f90f6929bd5f634bc50fc76ad375a9d19a5d365cd8233fc",
+          "urls": [
+            "https://github.com/jgm/pandoc/releases/download/3.6.3/pandoc-3.6.3-arm64-macOS.zip"
+          ]
+        },
+        "windows-x86_64": {
+          "file": "pandoc-3.6.3-windows-x86_64.zip",
+          "size": 37782350,
+          "sha256": "a31dc5b14a235efa1f2cf103f71f656eeb76ce1b458d22d24f390c66db7224f1",
+          "urls": [
+            "https://github.com/jgm/pandoc/releases/download/3.6.3/pandoc-3.6.3-windows-x86_64.zip"
+          ]
+        }
+      }
+    },
+    "winldd": {
+      "targets": {
+        "windows-x86_64": {
+          "file": "winldd-win64.zip",
+          "size": 128684,
+          "sha256": "0069f0d11d4ad6df068a068c003d22fe7dbec192a47bba64b2e115e9c8ce41d8",
+          "urls": [
+            "https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/winldd/1007/winldd-win64.zip",
+            "https://cdn.playwright.dev/builds/winldd/1007/winldd-win64.zip"
+          ]
+        }
+      }
+    }
+  }
+}
